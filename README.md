@@ -22,11 +22,11 @@ I also added a fake API - `getFromApi` for retrieving fake cart and products dat
 
 ## Work to do
 
-Adjust the `/routes/index.svelte` create necessary files in the `components` folder to:
+Adjust the `src/routes/+page.svelte` create necessary files in the `components` folder to:
 
 - Display a loading info while the products are in loading state
 
-- Change `index.svelte` to display a tile for each product with the following infos:
+- Change `+page.svelte` to display a tile for each product with the following infos:
 
   - Image (as image; you add also e.g.:"?imwidth=175" to the image url to get a 175px wide image)
   - Name
